@@ -189,6 +189,7 @@ Donate_plan_section_Start
 .donate_box p {
     font-size: 16px;
     line-height: 22px;
+    color: #707070;
 }
 
 .donate_plan{
@@ -300,4 +301,32 @@ Contact_section_Start
 
 /*--------------------------------
 Contact_section_End
+----------------------------------*/
+/*--------------------------------
+Footer start
+----------------------------------*/
+
+footer{
+    padding: 45px 0;
+    background: #0B0D17;
+}
+
+.footer_text{
+    text-align: center;
+}
+
+.footer_text h3 {
+    color: #FF5959;
+    font-size: 26px;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.footer_text span {
+    display: block;
+    color: #707070;
+    font-size: 20px;
+}
+/*--------------------------------
+Footer End
 ----------------------------------*/
