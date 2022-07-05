@@ -80,8 +80,81 @@ Home_section_Start
 /*--------------------------------
 Home_section_End
 ----------------------------------*/
+/*--------------------------------
+DonateToday_section_Start
+----------------------------------*/
+.donate_today{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
+.common_contant{
+    text-align: center;
+}
 
+.common_contant h2 {
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.common_contant p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 18px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.donate_amount_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.donate_amount {
+    padding: 30px;
+}
+
+.donate_amount span {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.amout_style {
+    background: rgba(255, 238, 238, 1);
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.amout_style span {
+    color: #ff0000;
+}
+
+.other_amount {
+    text-align: center;
+    position: relative;
+}
+
+.other_amount span {
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    color: #6c6868;
+    border-bottom: 1px solid #707070;
+    padding: 10px 0;
+}
+
+/*--------------------------------
+DonateToday_section_End
+----------------------------------*/
 
 
 
