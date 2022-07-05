@@ -120,6 +120,7 @@ DonateToday_section_Start
     padding: 30px;
 }
 
+
 .donate_amount span {
     font-size: 26px;
     font-weight: 700;
@@ -135,21 +136,24 @@ DonateToday_section_Start
     color: #ff0000;
 }
 
+
 .other_amount {
     text-align: center;
     position: relative;
 }
 
-.other_amount span {
-    font-size: 15px;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    display: block;
+input.others {
     width: 50%;
-    margin: 0 auto;
-    color: #6c6868;
-    border-bottom: 1px solid #707070;
+    text-align: center;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #DADADA;
+    font-size: 16px;
+    text-transform: capitalize;
     padding: 10px 0;
+    outline: none;
+    letter-spacing: 2px;
 }
 
 /*--------------------------------
@@ -255,4 +259,45 @@ Wellcome_humanity_section_Start
 /*-----------------------------------
 Wellcome_humanity_section_End
 -------------------------------------*/
+/*--------------------------------
+Contact_section_Start
+----------------------------------*/
+.contact_section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.submit_area {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgb(144 20 20 / 26%);
+    width: 60%;
+    margin: 0 auto;
+}
+.submit_area.margin{
+    margin-top: 60px;
+}
 
+.submit_area input {
+    padding: 16px 30px;
+    background: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius:  0px;
+    outline: none;
+    color: #000;
+    font-size: 15px;
+}
+
+.submit_area button {
+    padding: 16px 30px;
+    margin-left: -4px;
+    border: 1px solid #FF5959;
+    background: #FF5959;
+    font-size: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*--------------------------------
+Contact_section_End
+----------------------------------*/
