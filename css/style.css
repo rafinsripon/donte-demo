@@ -207,7 +207,52 @@ Donate_plan_section_Start
 Donate_plan_section_End
 ----------------------------------*/
 
+/*-----------------------------------
+Wellcome_humanity_section_Start
+-------------------------------------*/
+.welcome_humanity{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.humanity_area {
+    display: flex;
+    padding-top: 70px;
+}
 
+.humanity_item img {
+    width: 100%;
+}
 
+.humanity_item {
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 3px 14px rgb(0 0 6 / 40%);
+    border-radius: 5px;
+}
 
+.humanity_text {
+    padding: 30px 17px;
+}
+
+.humanity_text h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.humanity_text span {
+    color: #df1111;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 0;
+}
+
+.humanity_text p {
+    font-size: 16px;
+    color: #707070;
+}
+
+/*-----------------------------------
+Wellcome_humanity_section_End
+-------------------------------------*/
 
