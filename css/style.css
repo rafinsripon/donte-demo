@@ -155,8 +155,57 @@ DonateToday_section_Start
 /*--------------------------------
 DonateToday_section_End
 ----------------------------------*/
+/*--------------------------------
+Donate_plan_section_Start
+----------------------------------*/
+
+.donate_plan_area {
+    display: flex;
+    padding-top: 70px;
+}
+.donate_box {
+    background: #cec3c3;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 46px 20px;
+    border-radius: 5px;
+}
+
+.donate_box .icon {
+    width: 50px;
+    color: #ffff;
+}
 
 
+.donate_box h3 {
+    font-size: 22px;
+    padding: 14px 0;
+}
+
+.donate_box p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.donate_plan{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.color_one {
+    background: rgb(143 50 50 / 10%);
+}
+
+.color_tow {
+    background: rgb(27 243 60 / 10%);
+}
+
+.color_three {
+    background: rgb(178 181 21 / 10%);
+}
+/*--------------------------------
+Donate_plan_section_End
+----------------------------------*/
 
 
 
